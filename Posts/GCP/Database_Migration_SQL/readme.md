@@ -11,7 +11,7 @@ These steps are essential for establishing a successful connection between your 
 ## Watch Video or Follow Step-by-Step Guide
 
 For a visual walkthrough of the migration process, you can watch the video. 
-[![Watch the video](https://github.com/user-attachments/assets/a4e9d016-186d-4241-9d88-f0500704e37c)](https://raw.githubusercontent.com/Thirulok-Ranganathan/Posts/main/Posts/GCP/Database_Migration_SQL/Database_Migration_GCP.mp4)
+[Click here to watch the video](https://drive.google.com/file/d/14SdnitpHeSsXD7stzu4eYcwsMcUGfFXR/view?usp=sharing)
 Alternatively, follow the detailed step-by-step guide below to perform the database migration.
 
 ## 1. Enable Database Migration API
