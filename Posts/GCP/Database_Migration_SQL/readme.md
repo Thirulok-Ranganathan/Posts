@@ -78,13 +78,13 @@ Make sure the Cloud SQL Admin API is enabled for your project.
 
 Check both the Cloud Shell and your local server to ensure databases and tables have been migrated correctly.
 
-![Cloud_shell_databases](https://github.com/user-attachments/assets/435a9fef-0827-4f68-821c-017e48049250)
+<div style="display: flex; justify-content: space-around;">
+    <img src="https://github.com/user-attachments/assets/435a9fef-0827-4f68-821c-017e48049250" alt="Cloud Shell Databases" width="300"/>
+    <img src="https://github.com/user-attachments/assets/847bc04b-c760-4844-9f6f-fcf78a150767" alt="Cloud Shell Tables" width="300"/>
+    <img src="https://github.com/user-attachments/assets/fc554c84-ec98-413b-b36f-55cf21b6a5ea" alt="VM Databases" height="260" width="300"/>
+    <img src="https://github.com/user-attachments/assets/e239e1ad-2641-427c-a1bf-703251527f37" alt="VM Tables" width="300"/>
+</div>
 
-![cloud_shell_tables](https://github.com/user-attachments/assets/847bc04b-c760-4844-9f6f-fcf78a150767)
-
-![Vm_databases](https://github.com/user-attachments/assets/fc554c84-ec98-413b-b36f-55cf21b6a5ea)
-
-![vm_tables](https://github.com/user-attachments/assets/e239e1ad-2641-427c-a1bf-703251527f37)
 
 ## 10. Test Data Modifications
 
