@@ -8,6 +8,12 @@ Before proceeding with the migration, it's crucial to ensure proper network acce
 
 These steps are essential for establishing a successful connection between your local server and GCP during the migration process.
 
+## Watch Video or Follow Step-by-Step Guide
+
+For a visual walkthrough of the migration process, you can watch the video. 
+[![Watch the video](https://github.com/user-attachments/assets/a4e9d016-186d-4241-9d88-f0500704e37c)](https://raw.githubusercontent.com/Thirulok-Ranganathan/Posts/main/Posts/GCP/Database_Migration_SQL/Database_Migration_GCP.mp4)
+Alternatively, follow the detailed step-by-step guide below to perform the database migration.
+
 ## 1. Enable Database Migration API
 
 First, enable the Database Migration API in your GCP project.
