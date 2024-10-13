@@ -25,6 +25,14 @@ First, enable the Database Migration API in your GCP project.
 Navigate to the Database Migration service and create connection profiles for both source and destination databases.
 
 ![connection_profiles](https://github.com/user-attachments/assets/a4e9d016-186d-4241-9d88-f0500704e37c)
+When creating connection profiles, pay attention to the following details:
+
+### Source Connection Profile:
+
+- Hostname: Enter the IP address or domain name of your local SQL server
+- Port: Specify the port number your SQL server is using (default is usually 3306 for MySQL)
+- Username: Provide a user with sufficient privileges to access and read the database
+- Password: Enter the password for the specified user
 
 ![Create_connection_profile_1](https://github.com/user-attachments/assets/ada9c26d-f144-4425-92cc-707eaf592979)
 
@@ -41,6 +49,20 @@ Set up a new migration job to define the migration process.
 Select the source (your local SQL database) and define the destination (Cloud SQL instance).
 
 ![select_source_migration_creation](https://github.com/user-attachments/assets/17a446ba-2e5b-402f-94e4-9a4278117902)
+### Destination profile:
+
+- Instance: Choose to create a new instance or select an available one
+- Database version: Select a version compatible with your local SQL server. Ideally, choose the same version to avoid migration issues
+- Edition: Choose between Enterprise or Standard edition based on your requirements
+- Root password: Set a strong password for the root user of your Cloud SQL instance
+- Encryption: Decide whether to enable encryption at rest for additional security
+
+Additional considerations:
+
+- Network connectivity: Ensure your local server is accessible from GCP. You may need to configure firewalls or use a VPN
+- Database size: Be aware of any size limitations in your chosen Cloud SQL tier
+
+Remember, differences in database versions or configurations between your local SQL and Cloud SQL can affect the migration process. Always test thoroughly before finalizing the migration.
 
 ![Define_destination_1](https://github.com/user-attachments/assets/aba9e370-9de3-4d3a-9aa8-a7229b2aaa3a)
 
